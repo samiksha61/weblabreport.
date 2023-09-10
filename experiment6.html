@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combined form</title>
+</head>
+<body  >
+   
+   <div  style="width: 70%;margin:0 auto;padding: 1.5rem;">
+    <form>
+        <fieldset style="background-color: rgb(243, 100, 219);" >
+            <legend> <h4 style="-webkit-text-fill-color: rgb(194, 16, 16);">STUDENT REGISTRATION FORM</h4></legend>
+            <label for="Name" >FirstName  :    </label>
+            <input type="text" ><small>(max 30 character A-Z And a-z)</small> <br>
+
+            
+
+                <label for="Name" >LastName :      </label>
+                <input type="text" ><small>(max 30 character A-Z And a-z)</small><br>
+            
+            
+            
+                <label> Date-of-Birth :</label>
+                <select name="DAy">
+                    <option >Day</option>
+                    <option >1</option>
+                    <option >2</option>
+                    <option >3</option>
+                    <option >4</option>
+                    <option >5</option>
+                    <option >6</option>
+                    <option >7</option>
+                    <option >8</option>
+                    <option >9</option>
+                    <option >10</option>
+                    <option >11</option>
+                    <option >12</option>
+                </select>
+                <select name="month">
+                    <option value="month">month</option>
+                    <option value="january">Jan</option>
+                    <option value="feb">feb</option>
+                    <option value="mar">mar</option>
+                    <option value="apr">apri</option>
+                    <option value="may">may</option>
+                    <option value="jun">jun</option>
+                    <option value="july">july</option>
+                    <option value="aug">aug</option>
+                    <option value="spt">spt</option>
+                    <option value="oct">oct</option>
+                    <option value="nov">nov</option>
+                    <option value="dec">dec</option>
+                </select>
+              
+                <select name="year" >
+                    <option >year</option>
+                    <option >2001</option>
+                    <option >2002</option>
+                    <option >2003</option>
+                    <option >2004</option>
+                    <option >2005</option>
+                    <option >2006</option>
+                    <option >2007</option>
+                    <option >2008</option>
+                    <option >2009</option>
+                    <option >2010</option>
+                    <option >2011</option>
+                    <option >2023</option>
+                </select>
+                <br>
+            
+            <label for="Email">Email-ID:</label>
+            <input type="email" >
+            <br>
+        
+    
+
+           
+            <label for="phone">phone number:</label>
+            <input type="tel" id="phone" name="phone"pattern="[0-9]{10}" ><small>(up to 10 character)</small><br>
+
+        
+        
+            <label for="Gender">Gender :   </label>
+            <label for="male">male</label>
+            <input type="radio" name="Gender" id="Gender">
+            <label for="Female">Female</label>
+            <input type="radio" name="Gender" id="Gender">    
+        
+        <br>
+            <label for="Address">Address:</label>
+            <textarea name="message" rows="2" cols="10" ></textarea>
+
+       <br>
+
+            <label for="city">City:</label>
+            <input type="text"  >
+            
+       <br>
+            <label for="pin code">pin code:</label>
+            <input type="number" >
+        <br>
+            <label for="State">State:</label>
+            <input type="text" >
+
+            
+        <br>
+
+            <label for="country">Country:</label>
+            <input type="text" >
+      <br>
+            <label for="Hobbies">Hobbies:</label>
+            <label for="Drawing">Drawing</label>
+            <input type="checkbox">
+            <label for="Dancing">Dancing</label>
+            <input type="checkbox">
+            <label for="Singing">Singing</label>
+            <input type="checkbox">
+            <label for="sketching">sketching</label>
+            <input type="checkbox"><br>
+            <label for="others">others</label>
+            <input type="checkbox"> <input type="text">
+        
+           <table style="display: inline-block;border-spacing: 0.8rem 0">
+            <tr>
+                <th> <label for="Qualification"><Strong>Qualification</Strong></label></th>
+                <th>SI.NO.Examination</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year of passing</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td><strong>1.</strong>Class X</td>
+                <td><input type="text"/></td>
+                <td><input type="text"/></td>
+                <td><input type="text"/></td>
+                
+                
+                
+            </tr><tr>
+                <td></td>
+                <td><strong>2.</strong>Class XII</td>
+                <td><input type="text"/></td>
+                <td><input type="text"/></td>
+                <td><input type="text"/></td>
+              
+                
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><strong>3.</strong>Graduation</td>
+                <td><input type="text"/></td>
+                <td><input type="text"/></td>
+                <td><input type="text"/></td>
+               
+                
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td><strong>4.</strong>masters</td>
+                <td><input type="text"/></td>
+                <td><input type="text"/></td>
+                <td><input type="text"/></td>
+               
+                
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>(10char max)</td>
+                <td>
+                    (up to 2 decimal)
+                </td>
+            </tr>
+
+           </table>
+
+      <br>
+      <br>
+            <label for="course">Courses: <br>applied for</label>
+            <label for="Bca">Bca</label>
+            <input type="radio">
+            <label for="B.com">B.com</label>
+            <input type="radio">
+            <label for="B.sc">B.sc</label>
+            <input type="radio">
+            <label for="B.A">B.A</label>
+            <input type="radio">
+     
+        <p style="text-align: center;">
+
+            <input type="submit" >
+            <button>reset</button>
+        </p>
+
+     </fieldset>
+
+    </form>
+</div>
+</body>
+</html>

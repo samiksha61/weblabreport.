@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bank>
+<customers>
+    <customer>
+        <ID>12345</ID>
+        <firstName>samiksha</firstName>
+        <lastName>Kalakheti</lastName>
+        <email>sami@gmail.com</email>
+        <phone>986208672</phone>
+        <address>
+            <street>ABC main street</street>
+            <city>Kathmandu</city>
+            <zip></zip>
+        </address>
+    </customer>
+    <account>
+        <AID>123</AID>
+        <CID>234</CID>
+        <CID>678</CID>
+        <Acctype>saving</Acctype>
+        <balance>240500</balance>
+        
+    </account>
+</customers>
