@@ -1,0 +1,22 @@
+<bank>
+  <customer>
+    <customerId>1</customerId>
+    <name>Samiksha kalakheti</name>
+    <address>ABC main street</address>
+  </customer>
+  <account>
+    <accountId>5</accountId>
+    <branchId>6</branchId>
+    <CustomerId>7</CustomerId>
+    <accountType>Savings</accountType>
+    <balance>50000.00</balance>
+  </account>
+  <employee>
+    <empId>2</empId>
+    <name>Indira kalakheti</name>
+    <designation>Manager</designation>
+    <DOJ>2023-01-15</DOJ>
+    <salary>75000.00</salary>
+    <address>Treveni street</address>
+  </employee>
+</bank>
